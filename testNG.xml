@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="first Test suite" allow-return-values="true">
+
+        <test name="pageObject">
+            <groups>
+                <run>
+                    <include name="pageObject"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="pageobject.testcases.TestHome"/>
+            </classes>
+        </test>
+
+<!--
+    <test name="PageFactory">
+        <packages>
+            <package name="pageobject.testcases.TestHomePF"/>
+        </packages>
+    </test>
+-->
+
+</suite>

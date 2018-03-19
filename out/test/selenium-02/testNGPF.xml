@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Second Test suite" allow-return-values="true">
+    <test name="PageFactory">
+        <groups>
+            <run>
+                <include name="pageFactory"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="pageobject.testcases.TestHomePF"/>
+        </classes>
+    </test>
+
+</suite>
+
